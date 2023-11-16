@@ -1,4 +1,4 @@
-[
+const grades = [
   {
     "_id": "1",
     "student": "121",
@@ -74,3 +74,5 @@
     "grade": "80"
   }
 ]
+
+export default grades;

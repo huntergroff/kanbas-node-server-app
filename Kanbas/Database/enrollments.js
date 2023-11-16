@@ -1,4 +1,4 @@
-[
+const enrollments = [
   { "_id": "1", "user": "121", "course": "RS101" },
   { "_id": "2", "user": "122", "course": "RS101" },
   { "_id": "3", "user": "123", "course": "RS101" },
@@ -9,3 +9,5 @@
   { "_id": "8", "user": "124", "course": "RS103" },
   { "_id": "9", "user": "127", "course": "RS103" }
 ]
+
+export default enrollments;

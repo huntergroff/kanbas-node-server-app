@@ -1,4 +1,4 @@
-[
+const modules = [
   {
     "_id": "M101",
     "name": "Introduction to Rocket Propulsion",
@@ -54,3 +54,5 @@
     "course": "65510e70870c092d5441bc96"
   }
 ]
+
+export default modules;

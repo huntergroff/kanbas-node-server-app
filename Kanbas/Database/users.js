@@ -1,4 +1,4 @@
-[
+const users = [
   {
     "_id": "121",
     "username": "iron_man",
@@ -90,3 +90,5 @@
     "role": "FACULTY"
   }
 ]
+
+export default users;
