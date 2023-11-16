@@ -1,9 +1,10 @@
 //require = import
 import express from "express";
+import "dotenv/config";
 import HelloRoutes from "./hello.js";
 import Lab5 from "./lab5.js";
-import CourseRoutes from "./courses/routes.js";
-import ModuleRoutes from "./Modules/routes.js";
+import CourseRoutes from "./Kanbas/courses/routes.js";
+import ModuleRoutes from "./Kanbas/modules/routes.js";
 import cors from "cors";
 
 //make the app
@@ -19,7 +20,7 @@ CourseRoutes(app);
 ModuleRoutes(app);
 
 //set up the app to listen to requests from port 4000
-app.listen(4000);
+app.listen(process.env.port || 4000);
 
 //to run: node app.js
 //or nodemon app.js to have it update automatically

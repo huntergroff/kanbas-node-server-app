@@ -1,4 +1,4 @@
-import Database from "../Kanbas/Database/index.js"
+import Database from "../Database/index.js"
 function CourseRoutes(app) {
     //add /api /rest or /data prefix just to inform devs that this is not a url for human
     //consumption or visiting but just for data delivery
