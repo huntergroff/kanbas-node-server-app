@@ -38,7 +38,10 @@ app.use(
     session(sessionOptions)
 );
 app.use(express.json());
-mongoose.connect(CONNECTION_STRING);
+
+//added from stackoverflow post:
+//https://stackoverflow.com/questions/55386359/mongoose-with-mongodb-atlas-return-empty-array
+mongoose.connect(CONNECTION_STRING, {useNewUrlParser: true, dbName: "kanbas"});
 
 
 //import routes from a different file
